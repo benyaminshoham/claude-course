@@ -317,7 +317,7 @@ export default function Presentation() {
             fontFamily: "inherit",
           }}
         >
-          ← הקודם
+          הקודם →
         </button>
 
         {/* Dot nav */}
@@ -355,7 +355,7 @@ export default function Presentation() {
             fontFamily: "inherit",
           }}
         >
-          הבא →
+          ← הבא
         </button>
       </div>
 
