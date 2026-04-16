@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const lessons = [
   { id: 1, title: "Claude Chat", subtitle: "הכרת הממשק, פרומפטים, פרויקטים ו-Connectors", to: "/lesson/1" },
-  { id: 2, title: "Claude Code", subtitle: "עבודה עם קוד, CLAUDE.md ואוטומציה", to: null },
+  { id: 2, title: "חיסכון בטוקנים", subtitle: "כלכלת הקונטקסט — חלון, זיכרון, Prompt Caching וטיפים", to: "/lesson/2" },
   { id: 3, title: "Claude Cowork", subtitle: "ניהול פרויקטים ומשימות חוזרות", to: null },
 ];
 
