@@ -4,6 +4,7 @@ const lessons = [
   { id: 1, title: "Claude Chat", subtitle: "הכרת הממשק, פרומפטים, פרויקטים ו-Connectors", to: "/lesson/1" },
   { id: 2, title: "חיסכון בטוקנים", subtitle: "כלכלת הקונטקסט — חלון, זיכרון, Prompt Caching וטיפים", to: "/lesson/2" },
   { id: 3, title: "דף נחיתה ממיר עם קלוד", subtitle: "מחקר CRO, סקיל, ויזואלים, קלוד קוד ו-GitHub Pages", to: "/lesson/3" },
+  { id: 4, title: "אגנט חדשות לרשתות חברתיות", subtitle: "RSS, NewsAPI, Claude SDK, תזמון ופרסום אוטומטי", to: "/lesson/4" },
 ];
 
 const extras = [
@@ -77,7 +78,7 @@ export default function Home() {
         <header style={s.header}>
           <div style={s.eyebrow}>קורס</div>
           <h1 style={s.title}>Claude לעסק שלך</h1>
-          <p style={s.subtitle}>3 שיעורים לשליטה מלאה בכלים של Anthropic</p>
+          <p style={s.subtitle}>4 שיעורים לשליטה מלאה בכלים של Anthropic</p>
         </header>
 
         <section>
