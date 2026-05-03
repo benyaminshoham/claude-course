@@ -5,6 +5,7 @@ const lessons = [
   { id: 2, title: "חיסכון בטוקנים", subtitle: "כלכלת הקונטקסט — חלון, זיכרון, Prompt Caching וטיפים", to: "/lesson/2" },
   { id: 3, title: "דף נחיתה ממיר עם קלוד", subtitle: "מחקר CRO, סקיל, ויזואלים, קלוד קוד ו-GitHub Pages", to: "/lesson/3" },
   { id: 4, title: "אגנט חדשות לרשתות חברתיות", subtitle: "RSS, NewsAPI, Claude SDK, תזמון ופרסום אוטומטי", to: "/lesson/4" },
+  { id: 5, title: "חיבורי MCP בקלוד", subtitle: "קונקטורים, אוטומציות עסקיות, Google Drive, Gmail, Calendar ובניית קונקטור", to: "/lesson/5", badge: "סדנה" },
 ];
 
 const extras = [
@@ -108,8 +109,19 @@ export default function Home() {
               onMouseEnter={hoverCard.enter}
               onMouseLeave={hoverCard.leave}
               >
-                <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 9, color: "#C8922A", letterSpacing: "0.14em", textTransform: "uppercase", marginBottom: 6 }}>
-                  שיעור {lesson.id}
+                <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 6 }}>
+                  <span style={{ fontFamily: "'DM Mono', monospace", fontSize: 9, color: "#C8922A", letterSpacing: "0.14em", textTransform: "uppercase" }}>
+                    שיעור {lesson.id}
+                  </span>
+                  {lesson.badge && (
+                    <span style={{
+                      fontFamily: "'DM Mono', monospace", fontSize: 8,
+                      padding: "2px 8px", borderRadius: 100,
+                      background: "#3D2E10", color: "#D4A84B",
+                      letterSpacing: "0.1em", textTransform: "uppercase",
+                      border: "0.5px solid rgba(200,146,42,0.2)",
+                    }}>{lesson.badge}</span>
+                  )}
                 </div>
                 <div style={{ fontFamily: "'Exo 2', sans-serif", fontWeight: 700, fontSize: 17, color: "#F5F0E8", marginBottom: 4 }}>
                   {lesson.title}
