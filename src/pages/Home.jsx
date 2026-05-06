@@ -6,6 +6,7 @@ const lessons = [
   { id: 3, title: "דף נחיתה ממיר עם קלוד", subtitle: "מחקר CRO, סקיל, ויזואלים, קלוד קוד ו-GitHub Pages", to: "/lesson/3" },
   { id: 4, title: "אגנט חדשות לרשתות חברתיות", subtitle: "RSS, NewsAPI, Claude SDK, תזמון ופרסום אוטומטי", to: "/lesson/4" },
   { id: 5, title: "חיבורי MCP בקלוד", subtitle: "קונקטורים, אוטומציות עסקיות, Google Drive, Gmail, Calendar ובניית קונקטור", to: "/lesson/5", badge: "סדנה" },
+  { id: 6, title: "WooCommerce עם Claude ו-MCP", subtitle: "audit חנות, שיפור מוצרים, תמחור, SEO, ניתוח לקוחות ואוטומציות מתוזמנות", to: "/lesson/6", badge: "סדנה" },
 ];
 
 const extras = [
