@@ -18,7 +18,7 @@ export default function Lesson8() {
       <div style={navStyle}>
         <Link to="/" style={{ fontFamily: "'DM Mono', monospace", fontSize: 12, color: "#C8922A", textDecoration: "none", letterSpacing: "0.04em" }}>← חזרה</Link>
         <span style={{ color: "#3D3528" }}>|</span>
-        <span style={{ fontFamily: "'Exo 2', sans-serif", fontSize: 13, color: "#F5F0E8", fontWeight: 600, letterSpacing: "-0.01em" }}>סדנה — שיעור שמוכר</span>
+        <span style={{ fontFamily: "'Exo 2', sans-serif", fontSize: 13, color: "#F5F0E8", fontWeight: 600, letterSpacing: "-0.01em" }}>שיעור חינמי — מכונת לידים לעסק</span>
       </div>
       <LessonWorkshopPresentation />
     </div>

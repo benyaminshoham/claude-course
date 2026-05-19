@@ -8,7 +8,7 @@ const lessons = [
   { id: 5, title: "חיבורי MCP בקלוד", subtitle: "קונקטורים, אוטומציות עסקיות, Google Drive, Gmail, Calendar ובניית קונקטור", to: "/lesson/5", badge: "סדנה" },
   { id: 6, title: "WooCommerce עם Claude ו-MCP", subtitle: "audit חנות, שיפור מוצרים, תמחור, SEO, ניתוח לקוחות ואוטומציות מתוזמנות", to: "/lesson/6", badge: "סדנה" },
   { id: 7, title: "תפסיק להישמע כמו כולם", subtitle: "הגדרת עסק לקלוד — מסמכי מותג, קול וטון, קהל יעד, מיצוב ומערכת הקשר שמייצרת תוצאות עקביות", to: "/lesson/7", badge: "סדנה" },
-  { id: 8, title: "שיעור שמוכר", subtitle: "מבנה שיעור, תוכן לשקפים, דמואים חיים, זווית מכירתית ו-workflow מלא לבניית שיעור AI שמייצר לקוחות", to: "/lesson/8", badge: "סדנה" },
+  { id: 8, title: "מכונת לידים לעסק", subtitle: "חיפוש עסקים, ניהול לידים ב-Google Sheets, פניות מותאמות עם Claude, פולואפ ב-Gmail ו-WhatsApp", to: "/lesson/8", badge: "חינמי" },
 ];
 
 const extras = [
