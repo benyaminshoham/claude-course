@@ -9,6 +9,7 @@ const lessons = [
   { id: 6, title: "WooCommerce עם Claude ו-MCP", subtitle: "audit חנות, שיפור מוצרים, תמחור, SEO, ניתוח לקוחות ואוטומציות מתוזמנות", to: "/lesson/6", badge: "סדנה" },
   { id: 7, title: "תפסיק להישמע כמו כולם", subtitle: "הגדרת עסק לקלוד — מסמכי מותג, קול וטון, קהל יעד, מיצוב ומערכת הקשר שמייצרת תוצאות עקביות", to: "/lesson/7", badge: "סדנה" },
   { id: 8, title: "מכונת לידים לעסק", subtitle: "חיפוש עסקים, ניהול לידים ב-Google Sheets, פניות מותאמות עם Claude, פולואפ ב-Gmail ו-WhatsApp", to: "/lesson/8", badge: "חינמי" },
+  { id: 9, title: "פרומפט, פרויקט או סקיל?", subtitle: "איך לעבוד נכון עם קלוד בלי להתחיל מאפס בכל פעם — מבנה עבודה, פרויקטים, סקילים וטבלת החלטה", to: "/lesson/9", badge: "סדנה" },
 ];
 
 const extras = [

@@ -8,6 +8,7 @@ import Lesson5 from "./pages/Lesson5.jsx";
 import Lesson6 from "./pages/Lesson6.jsx";
 import Lesson7 from "./pages/Lesson7.jsx";
 import Lesson8 from "./pages/Lesson8.jsx";
+import Lesson9 from "./pages/Lesson9.jsx";
 import DiagramPage from "./pages/DiagramPage.jsx";
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
       <Route path="/lesson/6" element={<Lesson6 />} />
       <Route path="/lesson/7" element={<Lesson7 />} />
       <Route path="/lesson/8" element={<Lesson8 />} />
+      <Route path="/lesson/9" element={<Lesson9 />} />
       <Route path="/diagram" element={<DiagramPage />} />
     </Routes>
   );
